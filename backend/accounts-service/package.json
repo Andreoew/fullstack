@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node -r dotenv/config ./dist/server",
-    "compile": "tsc && node -r dotenv/config ./dist/server",
+    "start": "node -r dotenv-safe/config ./dist/server",
+    "compile": "tsc && node -r dotenv-safe/config ./dist/server",
     "dev": "nodemon -e ts,json --ignore dist --exec \"npm run compile\"",
     "test": "jest"
   },

@@ -1,6 +1,7 @@
 import app from "./app";
 import database from "./db";
 
+
 (async () => {
   try {
     const port = parseInt(`${process.env.PORT}}`);
